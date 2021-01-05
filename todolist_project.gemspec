@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name        = 'todolist_project'
-  s.version     = '1.0.0'
-  s.summary     = 'Todo List Manager!'
-  s.description = 'This is a simple todo list manager!'
-  s.authors     = ['Joshua Morgan']
-  s.email       = 'jmorg0605@gmail.com'
-  s.homepage    = 'https:/rubygems.org/gems/todolist_project'
-  s.files       = ['lib/todolist_project.rb', 'test/todolist_project_test.rb']
+  spec.name        = 'todolist_project'
+  spec.version     = '1.0.0'
+  spec.summary     = 'Todo List Manager!'
+  spec.description = 'This is a simple todo list manager!'
+  spec.authors     = ['Joshua Morgan']
+  spec.email       = 'jmorg0605@gmail.com'
+  spec.homepage    = 'https:/rubygems.org/gems/todolist_project'
+  spec.files       = ['lib/todolist_project.rb', 'test/todolist_project_test.rb']
 end

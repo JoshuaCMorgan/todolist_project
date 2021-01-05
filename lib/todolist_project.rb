@@ -29,7 +29,9 @@ class Todo
   end
 
   def to_s
-    "[#{done? ? DONE_MARKER : UNDONE_MARKER}] #{title}"
+    result = "[#{done? ? DONE_MARKER : UNDONE_MARKER}] #{title}"
+    result += duedate.stamp(' (Due: Friday January 6)') if due_date
+    result
   end
 
   def ==(otherTodo)

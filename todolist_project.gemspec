@@ -1,4 +1,4 @@
-Gem::Specification.new do |s|
+Gem::Specification.new do |spec|
   spec.name        = 'todolist_project'
   spec.version     = '1.0.0'
   spec.summary     = 'Todo List Manager!'
